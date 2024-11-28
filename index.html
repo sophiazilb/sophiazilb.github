@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Bookmark</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="bookmark-container2">
+            <div class="content">
+            <header>
+                <h1>Media Bookmarks Library</h1>
+            </header>
+            <nav class="header">
+                <ul>
+                    <li>   <a href="index.html">Media Library</a></li> 
+                    <li>   <a href="instructions.html">Upload Instructions</a></li>
+                    <li>   <a href="safety.html">Safe Watch</a></li>
+                </ul>
+            </nav>
+
+            <div class="search-container">
+                <input id="bookmarkLink" type="text" placeholder="Enter Media Bookmark link here...">
+                <button onclick="saveBookmark()">Save Bookmark</button>
+            </div>
+            <div class="subtitle" ><span>Bookmarked Media:</span></div>
+            </div>
+            
+
+          
+            <div class="bookmarked-container" id="bookmarkedContainer">
+                <!-- Saved YouTube videos will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+    
+</body>
+</html>
