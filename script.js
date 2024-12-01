@@ -52,7 +52,7 @@ function getSlotHTML(bookmarkId) {
     const slotHTML = `
     <div class="card" id="${bookmarkId}">
         <iframe src="${bookmarkIframe}" width="200" height="150" allowfullscreen></iframe>
-        <a href="#" onclick="removeBookmark('${bookmarkId}')" style="color:red;font-weight:bold;">Remove Video</a>
+       <br> <a href="#" onclick="removeBookmark('${bookmarkId}')" style="color:red;font-weight:bold;">Remove Video</a>
     </div>
     `;
     return slotHTML;
