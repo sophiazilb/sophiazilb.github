@@ -13,6 +13,10 @@
     margin: 50px;
 }
 
+
+
+
+
 .bookmark-container2 {
     display: block;
     flex-direction: column;
@@ -80,6 +84,7 @@ header{text-align: center;}
 
 nav a {
     padding: 15px;
+    font-size:20px;
     font-weight: bold;
     display: block;
     text-decoration: none;
@@ -98,7 +103,7 @@ nav li:hover{
     background-color: #4caf50;
     transition: .5s;
 }
-
+.block li{padding-bottom: 15px;}
 
 .circle {
     display: inline-block;
@@ -118,7 +123,7 @@ nav li:hover{
 margin-top: 50px;
 font-size: 22px;
 color: #3971a6;
-width:100%;
+width:100%; 
 }
 
 .center{
@@ -129,11 +134,7 @@ width:100%;
     color:#000;
 }
 
-.content-block{
-    font-size: 18px;
-    margin-top: 20px;
-    flex-basis: 100%;
-}
+
 
 .blocks{
     display: flex;
